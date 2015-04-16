@@ -1,18 +1,2 @@
 # smarter-state
 Website for Smarter State website
-
-
-To embed the Twitter feed:
-
-<a class="twitter-timeline" href="https://twitter.com/TheGovLab" data-widget-id="588760332207808512">Tweets by @TheGovLab</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-To embed the blog feed:
-
-<script src="js/jquery.zrssfeed.min.js"></script>
-then
-$('#digest-container').rssfeed('http://thegovlab.org/govlab-digest/feed/',
-  {
-  limit: 5,
-  linktarget: '_blank'
-	});
